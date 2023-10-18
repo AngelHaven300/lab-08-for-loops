@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var userinput = prompt("lets party! How long to the party?"); //userinput is a string
+        var userint = parseInt(userinput, 10); //converting to an integer 
+        if (userint < 1) {
+            console.log("party now!!!");
+        } else {
+            for (var i = userint; i >= 1; i = i - 1) {
+                console.log(i);
+                if (i == 1) {
+                    console.log("party time!!!");
+                }
+
+            }
+        }
+    </script>
+</body>
+</html>
