@@ -3,11 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>highest num</title>
 </head>
 <body>
     <script>
+        var highestnum = 0
+    for (var i = 1; i <= 4; i = i + 1) {
+        var userinput = prompt("number please...");
+        var userint = parseInt(userinput, 10);
+     console.log("User entered:" + userinput);
+    }
+    if (userint > highestnum) {
+        highestnum = userint; 
+        console.log("updating highest number...");
         
+    } else {
+        console.log("This is not the highest number");
+        console.log("the highest number entered is: " + highestnum);
+    }
+
     </script>
 </body>
 </html>
