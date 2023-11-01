@@ -9,4 +9,4 @@ for i in range(0, 4, 1):
         print("Updating highest number...")
     else:
         print("This is not the highest number")
-    print("the highest number entered is: " + str(highestnum))
+        print("the highest number entered is: " + str(highestnum))
